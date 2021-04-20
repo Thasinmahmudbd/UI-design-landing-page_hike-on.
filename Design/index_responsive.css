@@ -1,0 +1,221 @@
+/* for tablets width = 800px */
+
+@media only screen and (max-width: 800px) {
+
+    /* body */
+
+    body {
+        margin-right: 2.5rem;
+    }
+
+    /* header + navbar */
+
+    .header {
+        grid-template-columns: 1fr;
+        width: 90.5vw;
+    }
+
+    /* on scroll */
+
+    .header_on_scroll {
+        grid-template-columns: 1fr;
+        width: 90.5vw;
+    }
+
+
+    /* slider */
+
+    .slider {
+        height: 300px;
+        grid-template-rows: auto;
+        margin-top: 7.2rem;
+        width: 90.5vw;
+    }
+
+    .slider_content {
+        font-size: .8rem;
+        padding: 3rem;
+    }
+
+    .right {
+        margin-left: 40vw;
+    }
+
+    .left {
+        margin-right: 40vw;
+    }
+
+    .slider_btn {
+        font-size: .8rem;
+    }
+
+    /* section */
+
+    .section_header {
+        margin: 2rem 1rem 2rem 1rem;
+        font-size: 1.5rem;
+    }
+
+    .hiking_spots {
+        grid-gap: 1rem;
+    }
+
+    .section {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .img {
+        width: 80vw;
+        margin: auto;
+        grid-row-start: 1;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        margin-bottom: 2rem;
+    }
+
+    .title_left {
+        text-align: center;
+    }
+
+    .title_right {
+        text-align: center;
+    }
+
+    /* employee */
+
+    .employee {
+        width: 90.5vw;
+    }
+
+    a .drp_down {
+        display: none;
+    }
+
+}
+
+/* for mobile devices width = 500px */
+
+@media only screen and (max-width: 500px) {
+
+    /* body */
+
+    body {
+        margin-right: 0rem;
+    }
+
+    /* basic info */
+
+    .basic_info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact_info {
+        grid-template-columns: 1fr 1fr;
+        font-size: .8rem;
+        grid-gap: .5rem;
+        justify-self: center;
+        padding: .5rem;
+    }
+
+    .social_links {
+        position: fixed;
+        top: 270px;
+        left: 0px;
+        grid-gap: .5rem;
+        z-index: 15;
+        grid-template-columns: 1rem;
+        justify-self: start;
+    }
+
+    .fas {
+        font-size: .8rem;
+        padding: .5rem;
+    }
+
+    .fab {
+        font-size: .8rem;
+    }
+
+    .fa-linkedin-in {
+        padding: .5rem .55rem;
+    }
+
+    p .contact_icon {
+        font-size: .5rem;
+        padding: .2rem;
+    }
+
+    /* header + navbar */
+
+    .header {
+        grid-template-columns: 1fr;
+        width: calc(100vw - 2rem);
+    }
+
+    .navbar {
+        grid-gap: 0rem;
+        font-size: .7rem;
+    }
+
+    .nav_link {
+        padding: .5rem;
+    }
+
+    /* on scroll */
+
+    .header_on_scroll {
+        grid-template-columns: 1fr;
+        width: calc(100vw - 2rem);
+    }
+
+
+    /* slider */
+
+    .slider {
+        height: 150px;
+        margin-top: 5.5rem;
+        width: calc(100vw - 2rem);
+    }
+
+    .slider_content {
+        font-size: .5rem;
+        padding: .5rem;
+    }
+
+    .slider_btn {
+        font-size: .5rem;
+    }
+
+    /* section */
+
+    .section_header {
+        margin: 2rem 1rem 2rem 1rem;
+        font-size: 1.1rem;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    /* employee */
+
+    .employee {
+        width: calc(100vw - 2rem);
+    }
+
+    /* footer */
+
+    .footer {
+        padding: 1.5rem;
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+        font-size: .8rem;
+    }
+
+}
